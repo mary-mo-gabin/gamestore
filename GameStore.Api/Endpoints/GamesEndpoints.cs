@@ -47,17 +47,17 @@ public static class GamesEndpoints
         // POST /games
         group.MapPost("/", (CreateGameDto newGame) =>
         {
-        GameDto game = new(
-            games.Count + 1,
-            newGame.Name,
-            newGame.Genre,
-            newGame.Price,
-            newGame.ReleaseDate
-        );
+            GameDto game = new(
+                games.Count + 1,
+                newGame.Name,
+                newGame.Genre,
+                newGame.Price,
+                newGame.ReleaseDate
+            );
 
-        games.Add(game);
+            games.Add(game);
 
-        return Results.CreatedAtRoute(GetGameEndpoint, new {id = game.Id}, game); 
+            return Results.CreatedAtRoute(GetGameEndpoint, new {id = game.Id}, game); 
         });
 
         // PUT requests should be thread-safe to prevent data inconsistencies; not implemented here yet
