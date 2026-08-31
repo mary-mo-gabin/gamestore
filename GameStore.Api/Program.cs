@@ -9,6 +9,7 @@ builder.AddGameStoreDb();
 var app = builder.Build();
 
 app.MapGamesEndpoints();
+app.MapGenresEndpoints();
 
 app.MigrateDB(); // migrate the database on startup 
 
