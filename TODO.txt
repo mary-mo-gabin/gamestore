@@ -1,0 +1,3 @@
+TODO
+- integrate the front end; source code from
+    https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rU19xNy04bG80NVFsd2pqRzAxZHg1NnxBR3JiS2FudDI0bU0zS1NSbndsZ3M0ZkpzYUtyZjlic0p3VUxUdVpfSzI5VXFyMlZ0Q2xIUG1uYjBqaUEyVmJSdGdicnFRLXlGS3lqTXkwMWV4ZWtuNHl6UnpYZXdoUHF0Y1pK&q=https%3A%2F%2Fgo.dotnetacademy.io%2Faspnet-core-full-course-net10%3Futm_source%3Dyoutube%26utm_medium%3Dvideo_description%26utm_campaign%3Dsource_code%26utm_content%3Daspnet-core-full-course-net10&v=YbRe4iIVYJk
